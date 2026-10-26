@@ -16,8 +16,7 @@ if endurance == "yes":
 else:
     print("Maybe Jesus's Army is not for you.")
     
-trait = input("What best describes you? ")
-
+trait = input("What best describes you? ").lower()
 if trait == "brave":
     print("You belong in Gryffindor!")
     
@@ -34,7 +33,7 @@ elif trait == "enduring":
     print("You belong in Jesus's Army!")
     
 elif trait == "kind":
-    print("You belong to presious in millions!")
+    print("You're presious in millions!")
     
 elif trait == "wise":
     print("You belong in Ravenclaw!")
