@@ -5,3 +5,46 @@ bravery = input("Are you brave? ")
 if bravery =="yes":
     print("You belong in Gryffindor!")
     
+else:
+    print("Maybe gryffindor is not for you.")
+    
+endurance = input("Are you enduring? ")
+
+if endurance == "yes":
+    print("You belong in Jesus's Army!")
+        
+else:
+    print("Maybe Jesus's Army is not for you.")
+    
+trait = input("What best describes you? ")
+
+if trait == "brave":
+    print("You belong in Gryffindor!")
+    
+elif trait == "intelligent":
+    print("You belong in Ravenclaw!")
+    
+elif trait == "loyal":
+    print("You belong in Hufflepuff!")
+    
+elif trait == "ambitious":
+    print("You belong in Slytherin!")
+    
+elif trait == "enduring":
+    print("You belong in Jesus's Army!")
+    
+elif trait == "kind":
+    print("You belong to presious in millions!")
+    
+elif trait == "wise":
+    print("You belong in Ravenclaw!")
+    
+elif trait == "Hungry":
+    print("You belong in the Hogwarts kitchen!")
+    
+elif trait == "funny":
+    print("You belong in the Hogwarts comedy club!")
+    
+else:
+    print("The Sorting Hat is confused.")
+    
