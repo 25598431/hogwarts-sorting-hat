@@ -1,6 +1,6 @@
 print("Welcome to the Hogwarts Sorting Hat!")
 
-bravery = input("Are you brave? ")
+bravery = input("Are you bravie? ")
 
 if bravery =="yes":
     print("You belong in Gryffindor!")
@@ -46,4 +46,11 @@ elif trait == "funny":
     
 else:
     print("The Sorting Hat is confused.")
+    
+brave = input("Are you brave? ")
+intelligent = input("Are you intelligent? ")
+
+if brave == "yes" and intelligent == "yes":
+    print("You could be in Gryffindor or Ravenclaw!")
+    
     
