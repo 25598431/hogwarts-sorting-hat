@@ -53,4 +53,20 @@ intelligent = input("Are you intelligent? ")
 if brave == "yes" and intelligent == "yes":
     print("You could be in Gryffindor or Ravenclaw!")
     
+trait = input("What best do people say about you? ")
+
+if trait == "brave" or trait == "daring":
+    print("You belong in programming1!")
+    
+tired = False
+trait = input("How best do people describe you when you're in good spirit? ")
+
+if (trait == "joyful" or trait == "amaizing") and not tired:
+    print("You belong in to programming fun class!")
+
+bravery = int(input("How brave are you? (1-10) "))
+loyalty = int(input("How loyal are you? (1-10) "))
+
+if bravery >= 7 and loyalty >= 5:
+    print("You could be in brave students or the loyality club!")
     
